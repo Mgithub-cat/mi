@@ -450,6 +450,10 @@ ul li{
 	height: 340px;
 	padding-bottom: 40px;
 }
+.box .list2{
+	overflow: hidden;
+	transition: all .5s;
+}
 .box .list1 .dan{
 	width: 234px;
 	height: 300px;
@@ -457,22 +461,38 @@ ul li{
 	margin-right: 14px;
 	float: left;
 }
-.box .list1 .dan:nth-child(1){
+.btn{
+	float: right;
+}
+.btn button{
+	width: 36px;
+    padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 16px;
+    outline: none;
+    background: #fff;
+    cursor: pointer;
+}
+.btn button:hover{
+	color: #FF6700;
+}
+.box .list1 .bod1{
 	border-top: 1px solid #FFAC13;
 }
-.box .list1 .dan:nth-child(2){
+.box .list1 .bod2{
 	border-top: 1px solid #83C44E;
 }
-.box .list1 .dan:nth-child(3){
+.box .list1 .bod3{
 	border-top: 1px solid #2196F3;
 }
-.box .list1 .dan:nth-child(4){
+.box .list1 .bod4{
 	border-top: 1px solid #E53935;
 }
-.box .list1 .dan:nth-child(5){
+.box .list1 .bod5{
 	border-top: 1px solid #00C0A5;
 }
-.box .list1 .dan:nth-child(5){
+.box .list1 .dan1{
 	margin-right: 0;
 }
 .box .list1 .dan img{
@@ -549,9 +569,6 @@ ul li{
 	height: 614px;
 	float: left;
 	display: none;
-}
-.bgc .acti{
-	display: block;
 }
 .bgc .act{
 	color: #FF6B07;
@@ -707,6 +724,10 @@ ul li{
 	width: 992px;
 	height: 614px;
 	float: left;
+	display: none;
+}
+.bgc .acti{
+	display: block;
 }
 .main .match .blocks{
 	width: 234px;
@@ -814,6 +835,9 @@ ul li{
 	height: auto;
 	font-size: 22px;
 	margin-top: 22px;
+	overflow: hidden;
+}
+.tuijian .list{
 	overflow: hidden;
 }
 .tui{
@@ -935,8 +959,8 @@ ul li{
 	width: 80px;
 	height: 10px;
 	position: absolute;
-	top: 388px;
-	left: 110px;
+	top: 375px;
+	left: 72px;
 }
 .neirong .re li{
 	background: #B0B0B0;
@@ -963,12 +987,12 @@ ul li{
 	background: rgba(0,0,0,0.3);
 	cursor: pointer;
 }
-.neirong .re .p1{
+.neirong .re .p3{
 	position: absolute;
 	left: 0;
 	top: 50%;
 }
-.neirong .re .p2{
+.neirong .re .p4{
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -1029,6 +1053,14 @@ h1,h2,h3,h4{
 .neirong .re .z3{
 	margin: 8px 0 75px;
 }
+.re_card{
+	display: none;
+}
+.re_active{
+	display: block;
+}
+
+
 .video{
 	width: 100%;
 	height: 285px;
